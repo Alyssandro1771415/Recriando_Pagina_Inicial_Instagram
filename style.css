@@ -135,6 +135,9 @@ body{
 }
 
 @media(max-width:650px){
+    body{
+        background-color: #fff;
+    }
     .instagram-wraper{
         width: 90%;
     }
@@ -143,5 +146,8 @@ body{
     }
     .instagram-continue{
         width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
     }
 }
