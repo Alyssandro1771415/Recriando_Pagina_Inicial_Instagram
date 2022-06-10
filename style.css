@@ -9,7 +9,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-image: linear-gradient(to bottom right, rgb(11, 24, 141), rgb(0, 0, 0));
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,7 +32,13 @@ body{
 }
 
 .instagram-phone img{
-    height: 50rem;
+    width: 80%;
+    height: 470px;
+    border-radius: 5%;
+}
+
+.instagram-phone img{
+    box-shadow: 0 0 3em rgb(90, 62, 214);
 }
 
 .instagram-continue{
@@ -49,10 +55,11 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
+    background-image: linear-gradient(to bottom right, rgb(11, 24, 141), rgb(0, 0, 0));
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
 }
 
 .group:nth-child(1){
@@ -61,6 +68,8 @@ body{
 
 .instagram-logo{
     height: 3rem;
+    font-family: "Maiden-font";
+    font-size: 25px;
 }
 
 .profile-photo{
@@ -80,19 +89,31 @@ body{
     color: #fff;
     padding: 8px;
     border-radius: 4px;
+    font-family: "Maiden-font";
 }
+
+.instagram-login:hover{
+    box-shadow: 0 0 3em rgb(62 214 169);
+};
 
 .instagram-logout{
     color: #0095f6;
     margin-top: 1rem;
+    font-family: "Maiden-font";
+}
+
+.instagram-logout:hover{
+    box-shadow: 0 0 3em rgb(62, 184, 214);
 }
 
 .not-account{
-    color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-family: "Maiden-font";
 }
 
 .link-blue{
-    color: #0095f6;  
+    color: #0095f6;
+    font-family: "Maiden-font";
 }
 
 .get-the-app{
@@ -101,7 +122,12 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0; 
+    padding: 1.3rem 0;
+}
+
+.get-app{
+    font-family: "Maiden-font";
+    color: #fff;
 }
 
 .download{
