@@ -7,14 +7,15 @@
     font-size: 14px;
 }
 
-body{
+nav{
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, rgb(11, 24, 141), rgb(0, 0, 0));
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .instagram-wraper{
@@ -46,8 +47,6 @@ body{
     90%{box-shadow: 0 0 2em rgb(90, 62, 214);}
     100%{box-shadow: 0 0 3em rgb(18, 179, 228);}
 }
-
-
 
 .instagram-phone img{
     box-shadow: 0 0 3em rgb(90, 62, 214);
@@ -120,7 +119,7 @@ body{
 }
 
 .not-account{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Maiden-font";
 }
 
@@ -163,6 +162,31 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
+}
+
+.footer{
+    background-image: url(./img/background-footer.jpg);
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 8cm;
+}
+
+.footer a{
+    margin: 0cm 1cm 0cm 1cm;
+    font-family: "Maiden-font";
+    font-size: 25px;
+    color: white;
+}
+
+.footer a:hover{
+    color: yellow;
+    margin: 0cm 1cm 0cm 2.5cm;
+}
+
+.footer a:visited{
+    color: red;
 }
 
 /* media queries */
